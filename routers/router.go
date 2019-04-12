@@ -7,7 +7,9 @@ import (
 )
 
 func init() {
-	beego.Router("/", &controllers.MainController{}, "get:Index")
+	beego.Router("/", &controllers.MainController{}, "get:Get")
+
+	beego.Router("/sightRecreation/:id", &controllers.SightRecreationController{}, "get:GetDataByPage")
 
 	// 文章管理
 	beego.Router("/article", &controllers.ArticleController{})

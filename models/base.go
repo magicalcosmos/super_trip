@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	mHandler *mongo.Handler
+	mongoHandler *mongo.Handler
 )
 
 func init() {
@@ -15,5 +15,5 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	mHandler = handler
+	mongoHandler = handler
 }
