@@ -1,0 +1,58 @@
+ul, li, dl, dt {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    text-align: left;
+}
+
+.list {
+    border-top: 1px solid blue;
+    margin: 20px;
+    .item {
+        border-bottom: 1px solid blue;
+        padding: 10px 0;
+        height: 95px;
+        overflow: hidden;
+        .img {
+            float:left;
+            img {
+                height: 95px;
+                width: 95px;
+            }
+        }
+        .detail {
+            float: left;
+            margin-left: 10px;
+        }
+    }
+}
+.site {
+    margin-top: 3px;
+    line-height: 18px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+.city, .sort {
+    font-size: 12px;
+    color: #999;
+    margin-top: 6px;
+    height: 15px;
+    line-height: 15px;
+}
+.score {
+    font-size: 18px;
+    color: #099fde;
+}
+.sold {
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
+.sort, .sold {
+    margin-left: 5px;
+}
+.tag {
+    color: #19a0f0;
+    border: 1px solid rgba(25,160,240,0.3)
+}
