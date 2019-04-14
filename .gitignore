@@ -1,2 +1,7 @@
 .DS_Store
 ../../DS_store
+super_trip
+super_trip.exe
+super_trip*
+.vscode
+**/**/.vscode
